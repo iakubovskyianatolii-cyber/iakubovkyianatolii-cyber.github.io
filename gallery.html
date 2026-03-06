@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gallery-styles.css">
+</head>
+<body>
+        <header>
+        <div class="container_header">
+            <h1>Minun gallery</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <h2>Gallery</h2>
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery-item" onclick="openModal(this.querySelector('img').src)">
+            <img src="images/hoi2.png" alt="HOI 4 Mod Screenshot 1">
+        </div>
+        <div class="gallery-item" onclick="openModal(this.querySelector('img').src)">
+            <img src="images/Hoi2_1.png" alt="HOI 4 Mod Screenshot 2">
+        </div>
+        <div class="gallery-item" onclick="openModal(this.querySelector('img').src)">
+            <img src="images/Html1.png" alt="Web Design Screenshot 1">
+        </div>
+        <div class="gallery-item" onclick="openModal(this.querySelector('img').src)">
+            <img src="images/HTML2.png" alt="Web Design Screenshot 2">
+        </div>
+        <div class="gallery-item" onclick="openModal(this.querySelector('img').src)">
+            <img src="images/roulette1.png" alt="Casino Roulette Game 1">
+        </div>
+        <div class="gallery-item" onclick="openModal(this.querySelector('img').src)">
+            <img src="images/roulette2.png" alt="Casino Roulette Game 2">
+        </div>
+    </div>
+
+    <!-- Modal for image popup -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+
+    <footer>
+        <h3>Ota yhteyttä</h3>
+            <p>Sähköposti: <a href="anatolii1990work@gmail.com">anatolii1990work@gmail.com</a></p>
+            <p>Numero: <a href="tel:+358401234567">+358 40 123 4567</a></p>
+            <p>Osoite: Alexanderinkatu 12, Porvoo, Suomi</p>
+            <p><a href="https://linkedin.com/in/anatolii-iakubovskyi" target="_blank">LinkedIn</a></p>
+        Made by: Anatolii
+    </footer>
+
+    <script>
+        function openModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            modalImage.src = imageSrc;
+            modal.style.display = 'block';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.style.display = 'none';
+        }
+
+        // Close modal when pressing Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+
+
+</body>
+</html>
