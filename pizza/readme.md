@@ -8,10 +8,10 @@ Toteutettu Asiakas-roolille määrittelydokumentin pohjalta.
    - Seksio `<section id="menu">` tiedostossa [index.html](./index.html) (pizzalista kuvauksilla ja hinnoilla)
 
 2. **Haluan lisätä pizzan helposti ostoskoriin ja nähdä tilauksen kokonaissumman, jotta voin hallita kulujani.**  
-   - Ostoskori-toiminto seksiossa `<div id="cart">` sekä "Lisää ostoskoriin" -painikkeet pizzakorteissa
+   - Ostoskori-toiminto osiossa ”Menu” ja painike ”Lisää ostoskoriin” pizzasivuilla
 
 3. **Haluan tehdä tilauksen (osoite, yhteystiedot, maksutapa) ilman turhia vaiheita, jotta saan pizzan toimitettuna kotiin.**  
-   - Tilauslomake seksiossa `<section id="order">` (osoite, yhteystiedot ja maksutapa)
+   - Tilauslomake osiossa Menu, painike Tilaa nyt
 
 [Live demo →](https://iakubovskyianatolii-cyber.github.io/iakubovkyianatolii-cyber.github.io/pizza/)
 >
