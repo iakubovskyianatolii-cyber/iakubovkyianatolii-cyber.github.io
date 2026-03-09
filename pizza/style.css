@@ -189,6 +189,93 @@ button:hover, .button:hover {
 }
 
 /* -------------------- */
+/* ORDER BUTTON         */
+/* -------------------- */
+.order-button {
+    margin-top: 30px;
+    padding: 14px 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.order-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+}
+
+/* -------------------- */
+/* SHOPPING CART        */
+/* -------------------- */
+#ostokori {
+    background: white;
+}
+
+#ostokori h2 {
+    color: #0066cc;
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.cart-content {
+    background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
+    border: 2px solid #e0e8ff;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 2px 8px rgba(0, 102, 204, 0.08);
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cart-table thead {
+    background: #0066cc;
+    color: white;
+}
+
+.cart-table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.cart-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e0e8ff;
+    color: #555;
+}
+
+.cart-table tr:hover {
+    background: #f5f8ff;
+}
+
+.cart-summary {
+    text-align: right;
+    padding-top: 20px;
+    border-top: 2px solid #e0e8ff;
+    font-size: 18px;
+    color: #0066cc;
+    font-weight: 600;
+}
+
+.cart-summary p {
+    margin: 0;
+    text-align: right;
+}
+
+#cart-total {
+    color: #0052a3;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* -------------------- */
 /* FOOTER               */
 /* -------------------- */
 footer {

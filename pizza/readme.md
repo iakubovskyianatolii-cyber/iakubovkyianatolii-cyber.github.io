@@ -13,14 +13,5 @@ Toteutettu Asiakas-roolille määrittelydokumentin pohjalta.
 3. **Haluan tehdä tilauksen (osoite, yhteystiedot, maksutapa) ilman turhia vaiheita, jotta saan pizzan toimitettuna kotiin.**  
    - Tilauslomake seksiossa `<section id="order">` (osoite, yhteystiedot ja maksutapa)
 
-<<<<<<< HEAD
-## Tiedostot
-
-- [index.html](./index.html) - Pääsivu ja menun näyttö
-- [style.css](./style.css) - Sivun ulkoasu (moderni sininen teema)
-- [README.md](./README.md) - Tämä tiedosto
-
-[Live demo →](./)
-=======
-[Live demo →](../pizza/index.html)
->>>>>>> b31b55c19898881b3ae4dd35cc951bf817428e6e
+[Live demo →](https://iakubovskyianatolii-cyber.github.io/iakubovkyianatolii-cyber.github.io/pizza/)
+>
